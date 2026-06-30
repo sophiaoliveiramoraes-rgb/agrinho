@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroSmart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🌱 AgroSmart</h1>
+    <p>Agro forte, futuro sustentável</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Calculadora de Consumo de Água</h2>
+
+        <label>Área Plantada (hectares)</label>
+        <input type="number" id="area">
+
+        <label>Tipo de Cultura</label>
+        <select id="cultura">
+            <option value="5000">Milho</option>
+            <option value="7000">Soja</option>
+            <option value="9000">Arroz</option>
+            <option value="6000">Feijão</option>
+        </select>
+
+        <button onclick="calcular()">Calcular</button>
+
+        <h3 id="resultado"></h3>
+    </div>
+
+    <div class="card">
+        <h2>Dicas Sustentáveis</h2>
+
+        <ul>
+            <li>💧 Utilize irrigação por gotejamento.</li>
+            <li>🌳 Preserve áreas de mata nativa.</li>
+            <li>♻ Faça reciclagem de resíduos rurais.</li>
+            <li>☀ Aproveite energia solar.</li>
+            <li>🌱 Evite desperdício de água.</li>
+        </ul>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
